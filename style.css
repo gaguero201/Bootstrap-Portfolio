@@ -1,0 +1,83 @@
+html {
+  background-image: url("https://as2.ftcdn.net/jpg/01/56/57/83/1000_F_156578336_ooJBbQhGwyT0dfogBD3I6pX820KTDzlr.jpg");
+  background-size: cover;
+  border: none;
+}
+
+nav {
+  background:white;
+  font-weight:400;
+  font-size:40px;
+  padding:40px;
+  display: inline-block;
+}
+
+h1 {
+  padding: .5em;
+  border: 1px solid #4aaaa5;
+  background:#4aaaa5;
+  color:white;
+  font-size: 50px;
+  width: 250px;
+}
+
+div {
+  padding: .5em;
+  border: 1px  ;
+  width: 960px;
+  background: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size: 50px;
+  width: 800px;
+  color:#4aaaa5;
+}
+
+p {
+  font-size: 40px;
+  width: 960px;
+  font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+img {
+  float: left;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  padding: .5em;
+  border: 1px;
+  background:#666666;
+  color:white;
+  border-top: 8px solid #4aaaa5;
+}
+
+input {
+  font-size:70px;
+}
+
+.box{
+  position: relative;
+  display: inline-block; /* Make the width of box same as image */
+}
+.box .text{
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 1;        
+  text-align: center;
+  top: 75%; /* Adjust this value to move the positioned div up and down */
+  background: #4aaaa5;
+  font-family: Arial,sans-serif;
+  color: #fff;
+  width: 76%; /* Set the width of the positioned div */
+}
